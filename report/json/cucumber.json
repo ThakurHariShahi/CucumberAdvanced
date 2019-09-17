@@ -1,0 +1,82 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Setting up the driver",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7477433461,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I set up the driver and open chrome",
+            "match": {
+              "location": "StepDef.i_set_up_the_driver_and_open_chrome()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Verifying the Hris",
+        "description": "",
+        "id": "verifying-the-functionality-of-the-web-sites;verifying-the-hris",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2241606700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I launch the hris",
+            "match": {
+              "location": "StepDef.i_launch_the_hris()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4431191609,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I  enter credentials to login",
+            "match": {
+              "location": "StepDef.i_enter_credentials_to_login(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "harishahi",
+                  "Hari@101$#"
+                ],
+                "line": 26
+              }
+            ],
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@Hris"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying the functionality of the web sites",
+    "description": "",
+    "id": "verifying-the-functionality-of-the-web-sites",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/gmail.feature"
+  }
+]
