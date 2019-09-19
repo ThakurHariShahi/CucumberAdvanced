@@ -6,12 +6,14 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)				
 @CucumberOptions(
 		features="src/test/resources/Features/gmail.feature"
-		,plugin = {"html:report/html"
-				,"json:report/json/cucumber.json"
-				,"junit:report/junit/cucumber.xml"}
+		,plugin = {"pretty"
+				   ,"html:report/html"
+				   ,"json:report/json/cucumber.json"
+				   ,"junit:report/junit/cucumber.xml"
+				  }
 		,monochrome = true
 		,glue={"com.qait.stepDef"}
-		,tags= {"@Hris"}//{"@Hris,@Gmail"}//
+		,tags={"@Hris"}//{"@Hris,@Gmail"}//
 		)						
 
 public class Runner {

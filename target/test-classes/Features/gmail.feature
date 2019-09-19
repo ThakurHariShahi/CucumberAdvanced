@@ -1,4 +1,3 @@
-
 Feature: Verifying the functionality of the web sites  
 
 Background: Setting up the driver
@@ -8,6 +7,7 @@ Background: Setting up the driver
   Scenario Outline: Verifying the Gmail 
     Given I launch the gmail
     #Given I launch the "gmail"
+    #When I  enter the "<username>" and "<password>"
     When I  enter the <username> and <password>
     And I click on the login button
     Then I validate gmail inbox page for <username>

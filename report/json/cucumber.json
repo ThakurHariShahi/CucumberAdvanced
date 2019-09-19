@@ -1,9 +1,9 @@
 [
   {
-    "line": 2,
+    "line": 1,
     "elements": [
       {
-        "line": 4,
+        "line": 3,
         "name": "Setting up the driver",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 7477433461,
+              "duration": 5560058720,
               "status": "passed"
             },
-            "line": 5,
+            "line": 4,
             "name": "I set up the driver and open chrome",
             "match": {
               "location": "StepDef.i_set_up_the_driver_and_open_chrome()"
@@ -24,7 +24,7 @@
         ]
       },
       {
-        "line": 23,
+        "line": 22,
         "name": "Verifying the Hris",
         "description": "",
         "id": "verifying-the-functionality-of-the-web-sites;verifying-the-hris",
@@ -33,10 +33,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2241606700,
+              "duration": 2423347197,
               "status": "passed"
             },
-            "line": 24,
+            "line": 23,
             "name": "I launch the hris",
             "match": {
               "location": "StepDef.i_launch_the_hris()"
@@ -45,10 +45,10 @@
           },
           {
             "result": {
-              "duration": 4431191609,
+              "duration": 4637989063,
               "status": "passed"
             },
-            "line": 25,
+            "line": 24,
             "name": "I  enter credentials to login",
             "match": {
               "location": "StepDef.i_enter_credentials_to_login(DataTable)"
@@ -59,7 +59,7 @@
                   "harishahi",
                   "Hari@101$#"
                 ],
-                "line": 26
+                "line": 25
               }
             ],
             "keyword": "When "
@@ -67,7 +67,7 @@
         ],
         "tags": [
           {
-            "line": 22,
+            "line": 21,
             "name": "@Hris"
           }
         ]

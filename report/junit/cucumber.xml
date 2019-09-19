@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="14.150232">
-<testcase classname="Verifying the functionality of the web sites" name="Verifying the Hris" time="14.150232">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="12.621395">
+<testcase classname="Verifying the functionality of the web sites" name="Verifying the Hris" time="12.621395">
 <system-out><![CDATA[Given I set up the driver and open chrome...................................passed
 Given I launch the hris.....................................................passed
 When I  enter credentials to login..........................................passed
