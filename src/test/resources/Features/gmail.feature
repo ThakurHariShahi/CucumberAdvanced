@@ -19,8 +19,3 @@ Background: Setting up the driver
       | testuser275275    |     TESTuser275275    |
       | 275275testuser   	|     TESTuser275275    | 
     
-  @Hris
-  Scenario: Verifying the Hris
-  	Given I launch the hris
-  	When I  enter credentials to login   	
-  	| harishahi   |     Hari@101$#    |
